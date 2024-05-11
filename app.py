@@ -14,7 +14,7 @@ st.sidebar.header('User Input Parameters')
 
 # Function to get user input
 def get_input():
-    start_date = st.sidebar.date_input("Start Date", pd.to_datetime('2001-01-01'))
+    start_date = st.sidebar.date_input("Start Date", pd.to_datetime('2010-01-01'))
     end_date = st.sidebar.date_input("End Date", pd.to_datetime('today'))
     stock_symbol = st.sidebar.text_input("Enter Stock Symbol (e.g., AAPL for Apple)", 'AAPL')
     return start_date, end_date, stock_symbol
