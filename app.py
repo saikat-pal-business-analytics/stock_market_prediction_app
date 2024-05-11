@@ -54,7 +54,7 @@ def main():
 
     # Display the last 5 rows of the data
     st.subheader('Stock Data')
-    st.write(data.tail())
+    st.write(data)
 
     # Prediction
     st.subheader('Prediction')
